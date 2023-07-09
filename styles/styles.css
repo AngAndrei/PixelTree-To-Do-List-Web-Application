@@ -1,0 +1,273 @@
+body {
+	background-image: url("../img/wood-bg.jpg");
+}
+
+p {
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.home #index {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.tail,
+.top .container {
+	width: 900px;
+	margin: 0 auto;
+	padding: 40px;
+    padding-bottom: 62px;
+    padding-top: 10px;
+    text-align: center;
+    height: 40px;
+}
+
+.tail {
+    padding: 40px;
+    padding-bottom: 48px;
+    padding-top: 26px;
+}
+
+.tail h1{
+	color: #0B4FD9;
+}
+
+.page-title .container {
+    text-align: left;
+    height: 25px;
+    width:900px;
+    padding:15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.tail,
+.container {
+	background-color: #325c1a;
+	width: 900px;
+	color: #F29E38;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.home li,
+.home ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navigation a {
+    color: #F29E38;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+}
+
+.navigation a:hover {
+    color: #1e1c1c;
+}
+
+.navigation a:active {
+    background-color: #00BD68;
+    border-radius: 3px;
+}
+
+.top .social {
+    list-style: none;
+    text-align: right;
+    padding-top: 12px;
+}
+
+.top .social li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.logo {
+    height:50px;
+    
+}
+
+.tree-logo {
+    text-align: left;
+}
+
+.page-title a {
+    text-transform: uppercase;
+    color: #161c18;
+    text-decoration: none;
+}
+
+.page-title .container {
+    background-color: #e6e6e6;
+}
+
+.home .container,
+.sign-up .container,
+.log-in .container {
+    background-color: #fcfad2;
+    color: #161c18;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.home .news {
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.icon .container {
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+.sign-up form,
+.log-in form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+.sign-up form input,
+.log-in form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sign-up form input:first-child,
+.log-in form input:first-child {
+    margin-top: 10px;
+}
+
+
+.icon .title {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 2px -2px #fffbbd;
+}
+
+.icon img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.icon h2 {
+    color: #27bec5;
+    font-size: 28px;
+}
+
+.button-41 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 44px;
+  line-height: 44px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 15%;
+  z-index: 9;
+  border: 0;
+}
+
+.button-41:hover {
+  background: #00bd68;
+}
+
+.notes .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 500px;
+}
+
+
+
+.input-box {
+    position: relative;
+    width: 100%;
+    min-height: 40px;
+    background: #ffffff;
+    color: #333;
+    padding: 20px;
+    padding-right: 65px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.input-box img {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    cursor: pointer;
+}
+
+#tick {
+    right: 40px;
+}
+
+#star {
+    right: 65px;
+}
+
+#myProgress {
+    position: sticky;
+    bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #e4e4e4;
+  margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 9999;
+}
+
+#progressbar {
+    position: sticky;
+    bottom: 0;
+  width: 0%;
+  height: 40px;
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  color: #000;
+    border-radius: 8px;
+    z-index: 9999;
+}
+
+#starred {
+    outline: none;
+    border-color: #ffeb3b;
+    box-shadow: 0 0 15px #ffeb3b;
+}
